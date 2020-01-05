@@ -5,7 +5,7 @@ $(document).ready(function(){
           'type' : 'GET',
           'dataType' : 'json',
           'url' : 'https://combinatronics.com/MaksimsTerjohins/jscript/master/main.js',		  
-          //'url' : 'http://192.168.1.102:8000/distance_R.txt',
+
           'statusCode' : {
             404: function(){
                 let msg = 'File not found';
