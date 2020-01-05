@@ -4,8 +4,8 @@ $(document).ready(function(){
         $.ajax({
           'type' : 'GET',
           'dataType' : 'json',
-          //'url' : 'http://l92.168.1.102:8000/html.txt',		  
-          'url' : 'http://192.168.1.102:8000/distance_R.txt',
+          'url' : 'https://combinatronics.com/MaksimsTerjohins/jscript/master/main.js',		  
+          //'url' : 'http://192.168.1.102:8000/distance_R.txt',
           'statusCode' : {
             404: function(){
                 let msg = 'File not found';
