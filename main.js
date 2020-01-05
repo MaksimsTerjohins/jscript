@@ -4,7 +4,7 @@ $(document).ready(function(){
         $.ajax({
           'type' : 'GET',
           'dataType' : 'json',
-          'url' : 'http://192.168.1.102:8000/distance_R.txt',	  
+          'url' : 'http://192.168.1.102:8000',	  
           'statusCode' : {
             404: function(){
                 let msg = 'File not found';
