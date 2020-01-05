@@ -3,7 +3,7 @@ $(document).ready(function(){
         console.log('Reading file....');
         $.ajax({
           'type' : 'GET',
-          'dataType' : 'html',
+          'dataType' : 'text',
           'url' : 'http://192.168.1.102:8000',	  
           'statusCode' : {
             404: function(){
