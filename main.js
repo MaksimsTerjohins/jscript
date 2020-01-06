@@ -4,7 +4,7 @@ $(document).ready(function(){
         $.ajax({
           'type' : 'GET',
           'dataType' : 'text',
-          'url' : 'http://192.168.1.102:8000',	  
+          'url' : 'http://192.168.43.245:8000',	  
           'statusCode' : {
             404: function(){
                 let msg = 'File not found';
